@@ -80,3 +80,5 @@ services:
 If you’re using Minikube with this setup (which is likely if Elasticsearch is running locally), you’ll need to know the bound host IP that minikube uses. To find this, run the following command:
 
     minikube ssh "route -n | grep ^0.0.0.0 | awk '{ print \$2 }'"
+    
+### [ELK as a SERVER](https://github.com/sajithten/kubernetes-elasticsearch-logstash-kibana/blob/main/README.md)
